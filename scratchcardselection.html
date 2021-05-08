@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Trycks || Random Card Selection</title>
+ <link rel="stylesheet" type="text/css" href="randomcardselection.css"> 
+</head>
+
+
+<details class="custom-select">
+
+  <summary class="radios">
+
+    <input style="color:white;  font-family: 'Montserrat', sans-serif;" type="radio" name="item" id="default" title="Select Card" checked>
+
+
+    <input value="1" disabled style="color:white;font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item1" title="Choose an option">
+    <input value="2" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item2" title="2">
+    <input value="3" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item3" title="3">
+    <input value="4" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item4" title="4">
+    <input value="5" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item5" title="5">
+    <input value="6" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item6" title="6">
+    <input value="7" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item7" title="7">
+    <input value="8" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item8" title="8">
+    <input value="9" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item9" title="9">
+    <input value="10" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item10" title="10">
+    <input value="Jack" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item11" title="Jack">
+     <input value="Queen" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item12" title="Queen">
+      <input value="King" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item13" title="King">
+       <input value="Ace" style="color:white; font-family: 'Montserrat', sans-serif;"type="radio" name="item" id="item14" title="Ace">
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+  </summary>
+
+
+  <ul class="list">
+    <li>
+      <label for="item1" disabled>Choose an option</label>
+    </li>
+    <li>
+      <label for="item2">2</label>
+    </li>
+    <li>
+      <label for="item3">3</label>
+    </li>
+    <li>
+      <label for="item4">4</label>
+    </li>
+    <li>
+      <label for="item5">5</label>
+    </li>
+    <li>
+      <label for="item6">6</label>
+    </li>
+    <li>
+      <label for="item7">7</label>
+    </li>
+     <li>
+      <label for="item8">8</label>
+    </li>
+     <li>
+      <label for="item9">9</label>
+    </li>
+     <li>
+      <label for="item10">10</label>
+    </li>
+     <li>
+      <label for="item11">Jack</label>
+    </li>
+     <li>
+      <label for="item12">Queen</label>
+    </li>
+     <li>
+      <label for="item13">King</label>
+    </li>
+    <li>
+      <label for="item14">Ace</label>
+    </li>
+  </ul>
+
+
+</details>
+
+<button id="Spades" value="Spades" onclick="selectCardSpade()">Spades</button>
+<button id="Hearts" value="Hearts" onclick="selectCardHeart()">Hearts</button>
+<button id="Diamonds"value="Diamonds" onclick="selectCardDiamonds()">Diamonds</button>
+<button id="Clubs" value="Clubs" onclick="selectCardClubs()">Clubs</button>
+<div class="center">
+    <center style="margin-left: -1200px; margin-top:100px;">
+<div class="spades">
+  <center>
+<img  id="Spades" value="Spades" onclick="selectCardSpade()"src="spades.PNG"  style="position:absolute;margin-top:100px;margin-left:250px;width:150px;height:150px;"/>
+</center>
+</div>
+
+
+<div class="Hearts">
+  <center>
+<img  id="Hearts" value="Hearts" onclick="selectCardHeart()"src="hearts.PNG"  style="position:absolute;margin-top:-57px;margin-left:450px;width:150px;height:150px;"/>
+</center>
+</div>
+
+<div class="Diamonds">
+  <center>
+<img  id="Diamonds" value="Diamonds" onclick="selectCardDiamonds()"src="Diamonds.PNG"  style="position:absolute;margin-top:-205px;margin-left:650px;width:150px;height:150px;"/>
+</center>
+</div>
+
+<div class="Clubs">
+  <center>
+<img id="Clubs" value="Clubs" onclick="selectCardClubs()" src="clubs.PNG"  style="position:absolute;margin-top:-355px;margin-left:850px;width:150px;height:150px;"/>
+</center>
+</div>
+</div>
+  </center>
+
+  <div class="filler">
+<div class="about">
+<a href="aboutus.html"><img src="abotus.PNG"  style="position:absolute;width:100px;height:100px;left:0;top:0;padding:90px;padding-top: 350px;"/>
+</div>
+
+<div class="info">
+<a href="instructions.html"><img src="infobutton.PNG"  style="position:absolute;width:100px;height:100px;left:0;top:0;padding:90px;padding-top: 210px;"/>
+</div>
+
+<div class="home">
+<a href="index.html"><img src="homebutton.PNG"  style="position:absolute;width:100px;height:100px;left:0;top:0;padding:90px;"/>
+</div>
+</div>
+  <style>
+
+body {
+
+
+    background-color: #242526;
+ 
+
+}
+
+
+</style>
+
+<script type="text/javascript" src="scratchcard.js"></script>

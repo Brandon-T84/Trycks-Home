@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+color:white;
+ 
+}
+
+html {
+	background-color:#242526;
+}
+
+
+.Calculator {
+width:450px;
+height:450px;
+  overflow: hidden; 
+}
+
+
+.Calculator img {
+  transition: transform .5s ease;
+}
+
+
+.Calculator:hover img {
+  transform: scale(1.5);
+}
+
+.Cards {
+width:250px;
+height:250px;
+  overflow: hidden; 
+}
+
+
+.Cards img {
+  transition: transform .5s ease;
+}
+
+
+.Cards:hover img {
+  transform: scale(1.5);
+}
+
+
+.Cardscratch {
+width:100px;
+height:250px;
+  overflow: hidden; 
+}
+
+
+.Cardscratch img {
+  transition: transform .5s ease;
+}
+
+
+.Cardscratch:hover img {
+  transform: scale(1.5);
+}
+
+.home {
+width:100px;
+height:100px;
+  overflow: hidden; 
+}
+
+
+.home  img {
+  transition: transform .5s ease;
+}
+
+
+.home:hover img {
+  transform: scale(1.5);
+}
+
+.info {
+width:100px;
+height:100px;
+  overflow: hidden; 
+}
+
+
+.info img {
+  transition: transform .5s ease;
+}
+
+
+.info:hover img {
+  transform: scale(1.5);
+}
+
+.about {
+width:100px;
+height:100px;
+  overflow: hidden; 
+}
+
+
+.about img {
+  transition: transform .5s ease;
+}
+
+
+.about:hover img {
+  transform: scale(1.5);
+}
+
+.filler {
+
+  position:absolute;
+
+  margin-top:-1300px;
+}
+
